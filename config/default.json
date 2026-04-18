@@ -1,0 +1,20 @@
+{
+  "rpc": {
+    "ethereum": "https://eth.llamarpc.com",
+    "arbitrum": "https://arb1.arbitrum.io/rpc",
+    "base": "https://mainnet.base.org",
+    "optimism": "https://mainnet.optimism.io"
+  },
+  "monitor": {
+    "pollInterval": 60,
+    "maxRetries": 3,
+    "retryDelay": 5000
+  },
+  "alerts": {
+    "webhook": null,
+    "thresholdChangeAlert": true,
+    "ownerChangeAlert": true,
+    "balanceChangeMinEth": 1.0,
+    "codeChangeAlert": true
+  }
+}
