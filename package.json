@@ -1,0 +1,24 @@
+{
+  "name": "bridge-health-monitor",
+  "version": "0.2.1",
+  "description": "CLI tool to monitor bridge validator health, multisig activity, and TVL changes across EVM chains",
+  "main": "src/index.js",
+  "bin": {
+    "bhm": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "monitor": "node src/index.js monitor",
+    "check": "node src/index.js check",
+    "test": "node test/test.js"
+  },
+  "keywords": ["bridge", "monitor", "multisig", "validator", "defi", "evm", "health-check"],
+  "author": "James Park",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
+  }
+}
