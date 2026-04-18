@@ -103,6 +103,7 @@ Any EVM-compatible chain. Just pass the appropriate RPC:
 ## Roadmap
 
 - [ ] Multi-chain simultaneous monitoring
+- [ ] Alerting via Telegram bot
 - [ ] Historical activity timeline
 - [ ] Telegram/Discord alert integration
 - [ ] Dashboard UI (web)
